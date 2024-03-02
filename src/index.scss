@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px 40px;
+  background-color: #e5e4e2;
+  @media (max-width: 811px) {
+    padding: 20px 10px;
+  }
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
